@@ -14,7 +14,6 @@ board = [
 
 
 # Function to solve the Sudoku puzzle
-
 def solve(bo):
     find = find_empty(bo)
     if not find:
@@ -59,7 +58,6 @@ def valid(bo, num, pos):
 
 
 # Function to print the Sudoku board
-
 def print_board(bo):
     for i in range(len(bo)):
         if i % 3 == 0 and i != 0:
