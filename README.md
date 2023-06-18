@@ -1,3 +1,7 @@
+This Python program solves a Sudoku puzzle using a backtracking algorithm. It takes an incomplete Sudoku board as input, recursively fills in empty cells with valid digits, and outputs the solved Sudoku board.
+
+
+
 * This Python program solves a Sudoku puzzle using a backtracking algorithm. It represents the Sudoku board as a 2D list of numbers, with 0 representing empty cells. The main function solve(bo) recursively solves the puzzle by finding an empty cell, attempting to fill it with a number from 1 to 9, and checking if the placement is valid according to the Sudoku rules.
 
 * If a number is valid, it is placed in the cell and the function is called recursively on the updated board. If a solution is found, True is returned, and if no solution is found, False is returned.
